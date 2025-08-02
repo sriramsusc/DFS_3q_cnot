@@ -1,0 +1,13 @@
+{
+  "stop": "False",
+  "env_step": 25056,
+  "train_iter": 174,
+  "eval_value": -340.5,
+  "eval_value_raw": [
+    -340.5,
+    -340.5,
+    -340.5,
+    -340.5
+  ],
+  "finish_time": "Sun Jun  1 19:39:25 2025"
+}

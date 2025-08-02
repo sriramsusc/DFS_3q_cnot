@@ -1,0 +1,28 @@
+[2025-06-01 13:43:37][interaction_serial_evaluator.py:261][INFO] [EVALUATOR]env 0 finish episode, final reward: -6.0289, current episode: 1
+[2025-06-01 13:43:37][interaction_serial_evaluator.py:261][INFO] [EVALUATOR]env 1 finish episode, final reward: -6.0289, current episode: 2
+[2025-06-01 13:43:37][interaction_serial_evaluator.py:261][INFO] [EVALUATOR]env 2 finish episode, final reward: -6.0289, current episode: 3
+[2025-06-01 13:43:40][interaction_serial_evaluator.py:261][INFO] [EVALUATOR]env 0 finish episode, final reward: -6.0289, current episode: 4
+[2025-06-01 13:43:40][interaction_serial_evaluator.py:261][INFO] [EVALUATOR]env 1 finish episode, final reward: -6.0289, current episode: 4
+[2025-06-01 13:43:40][interaction_serial_evaluator.py:261][INFO] [EVALUATOR]env 2 finish episode, final reward: -6.0289, current episode: 4
+[2025-06-01 13:43:40][interaction_serial_evaluator.py:287][INFO] 
++-------+------------+---------------------+---------------+---------------+
+| Name  | train_iter | ckpt_name           | episode_count | envstep_count |
++-------+------------+---------------------+---------------+---------------+
+| Value | 0.000000   | iteration_0.pth.tar | 4.000000      | 108.000000    |
++-------+------------+---------------------+---------------+---------------+
++-------+-------------------------+---------------+---------------------+----------------------+
+| Name  | avg_envstep_per_episode | evaluate_time | avg_envstep_per_sec | avg_time_per_episode |
++-------+-------------------------+---------------+---------------------+----------------------+
+| Value | 27.000000               | 6.231917      | 17.330141           | 0.641857             |
++-------+-------------------------+---------------+---------------------+----------------------+
++-------+-------------+------------+------------+------------+
+| Name  | reward_mean | reward_std | reward_max | reward_min |
++-------+-------------+------------+------------+------------+
+| Value | -6.028943   | 0.000000   | -6.028943  | -6.028943  |
++-------+-------------+------------+------------+------------+
++-------+----------------------------------------------------------------------------------+--------------------------+
+| Name  | eval_episode_return                                                              | eval_episode_return_mean |
++-------+----------------------------------------------------------------------------------+--------------------------+
+| Value | [-6.028942584991455, -6.028942584991455, -6.028942584991455, -6.028942584991455] | -6.028943                |
++-------+----------------------------------------------------------------------------------+--------------------------+
+

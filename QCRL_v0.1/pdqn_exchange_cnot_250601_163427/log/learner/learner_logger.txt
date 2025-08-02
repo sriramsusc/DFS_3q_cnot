@@ -1,0 +1,93 @@
+[2025-06-01 16:34:28][base_learner.py:360][INFO] [RANK0]: DI-engine DRL Policy
+PDQN(
+  (dis_encoder): FCEncoder(
+    (act): ReLU()
+    (init): Linear(in_features=163, out_features=128, bias=True)
+    (main): Sequential(
+      (0): Linear(in_features=128, out_features=128, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=128, out_features=64, bias=True)
+      (3): ReLU()
+    )
+  )
+  (cont_encoder): FCEncoder(
+    (act): ReLU()
+    (init): Linear(in_features=163, out_features=128, bias=True)
+    (main): Sequential(
+      (0): Linear(in_features=128, out_features=128, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=128, out_features=64, bias=True)
+      (3): ReLU()
+    )
+  )
+  (cont_head): RegressionHead(
+    (main): Sequential(
+      (0): Linear(in_features=64, out_features=64, bias=True)
+      (1): ReLU()
+    )
+    (last): Linear(in_features=64, out_features=1, bias=True)
+    (tanh): Tanh()
+  )
+  (dis_head): DuelingHead(
+    (A): Sequential(
+      (0): Sequential(
+        (0): Linear(in_features=65, out_features=65, bias=True)
+        (1): ReLU()
+      )
+      (1): Sequential(
+        (0): Linear(in_features=65, out_features=5, bias=True)
+      )
+    )
+    (V): Sequential(
+      (0): Sequential(
+        (0): Linear(in_features=65, out_features=65, bias=True)
+        (1): ReLU()
+      )
+      (1): Sequential(
+        (0): Linear(in_features=65, out_features=1, bias=True)
+      )
+    )
+  )
+  (actor_head): ModuleList(
+    (0): DuelingHead(
+      (A): Sequential(
+        (0): Sequential(
+          (0): Linear(in_features=65, out_features=65, bias=True)
+          (1): ReLU()
+        )
+        (1): Sequential(
+          (0): Linear(in_features=65, out_features=5, bias=True)
+        )
+      )
+      (V): Sequential(
+        (0): Sequential(
+          (0): Linear(in_features=65, out_features=65, bias=True)
+          (1): ReLU()
+        )
+        (1): Sequential(
+          (0): Linear(in_features=65, out_features=1, bias=True)
+        )
+      )
+    )
+    (1): RegressionHead(
+      (main): Sequential(
+        (0): Linear(in_features=64, out_features=64, bias=True)
+        (1): ReLU()
+      )
+      (last): Linear(in_features=64, out_features=1, bias=True)
+      (tanh): Tanh()
+    )
+  )
+  (encoder): ModuleList(
+    (0-1): 2 x FCEncoder(
+      (act): ReLU()
+      (init): Linear(in_features=163, out_features=128, bias=True)
+      (main): Sequential(
+        (0): Linear(in_features=128, out_features=128, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=128, out_features=64, bias=True)
+        (3): ReLU()
+      )
+    )
+  )
+)
