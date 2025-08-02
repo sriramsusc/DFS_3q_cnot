@@ -69,7 +69,6 @@ main_config = edict({
     },
 })
 
-# create_cfg now includes the minimal pieces DI-engine needs
 create_config = edict({
     # 1. env_manager key so compile_config won't crash
     "env_manager": {
@@ -88,4 +87,4 @@ create_config = edict({
 
 if __name__ == "__main__":
     # pass both dicts in a list to serial_pipeline
-    serial_pipeline([main_config, create_config], seed=42, max_env_step=2500,)
+    serial_pipeline([main_config, create_config], seed=42, max_env_step=20000,)
