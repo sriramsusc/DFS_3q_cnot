@@ -1,4 +1,4 @@
-[2025-06-01 03:44:43][base_learner.py:360][INFO] [RANK0]: DI-engine DRL Policy
+[2025-08-02 14:07:07][base_learner.py:360][INFO] [RANK0]: DI-engine DRL Policy
 PDQN(
   (dis_encoder): FCEncoder(
     (act): ReLU()
@@ -91,3 +91,32 @@ PDQN(
     )
   )
 )
+[2025-08-02 14:07:18][base_learner.py:360][INFO] [RANK0]: learner save ckpt in ./pdqn_exchange_cnot/ckpt/ckpt_best.pth.tar
+[2025-08-02 14:07:36][base_learner.py:360][INFO] [RANK0]: === Training Iteration 0 Result ===
+[2025-08-02 14:07:36][learner_hook.py:228][INFO] 
++-------+------------+----------------+------------+---------------------+
+| Name  | cur_lr_avg | total_loss_avg | q_loss_avg | continuous_loss_avg |
++-------+------------+----------------+------------+---------------------+
+| Value | 0.001000   | 8.480402       | 8.480402   | 0.000000            |
++-------+------------+----------------+------------+---------------------+
++-------+-------------+------------+--------------------+
+| Name  | q_value_avg | reward_avg | target_q_value_avg |
++-------+-------------+------------+--------------------+
+| Value | -0.096086   | -1.568713  | 0.000000           |
++-------+-------------+------------+--------------------+
+
+[2025-08-02 14:07:36][base_learner.py:360][INFO] [RANK0]: learner save ckpt in ./pdqn_exchange_cnot/ckpt/iteration_0.pth.tar
+[2025-08-02 14:17:39][base_learner.py:360][INFO] [RANK0]: === Training Iteration 100 Result ===
+[2025-08-02 14:17:39][learner_hook.py:228][INFO] 
++-------+------------+----------------+------------+---------------------+
+| Name  | cur_lr_avg | total_loss_avg | q_loss_avg | continuous_loss_avg |
++-------+------------+----------------+------------+---------------------+
+| Value | 0.001000   | 7.309078       | 6.835308   | 0.473769            |
++-------+------------+----------------+------------+---------------------+
++-------+-------------+------------+--------------------+
+| Name  | q_value_avg | reward_avg | target_q_value_avg |
++-------+-------------+------------+--------------------+
+| Value | -0.250011   | 0.124223   | 0.000000           |
++-------+-------------+------------+--------------------+
+
+[2025-08-02 14:21:39][base_learner.py:360][INFO] [RANK0]: learner save ckpt in ./pdqn_exchange_cnot/ckpt/iteration_141.pth.tar
